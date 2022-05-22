@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="owl/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owl/assets/owl.theme.default.min.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=995d1419-f614-47f6-95f4-0b4553d8798f" type="text/javascript"></script>
+    <script src="js/ymap.js"></script>
+	
+</head>
+<body>
+    <div class="header">
+      <img src="images/head.gif" class="img-responsive"/>
+    </div>
+   
+    
+
+<div class="topnav">
+  <img src="images/tb_logo.png" class="logo"/>
+  <h4>Online taksi</h2>
+  <a href="main.html">Baş sahypa</a>
+  <a href="#">Taksi bronlamak</a>
+  
+</div>
+<h2 style="margin-left: 20px;">Taksi bronlamak</h2>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <div id="map"></div>
+      <input type="button" id="destroyButton" value="Удалить карту"/>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <div class="form">
+            <h3 style="text-align:center;color:white;">Gerekli maglumatlary giriziň</h3>
+          <input type="text" placeholder="Doly adynyz"/>
+          <input type="text" placeholder="Telefon belginiz"/>
+          <input type="text" placeholder="Salgynyz"/>
+          <input type="text" placeholder="Gitmeli ýeriňizi giriziň"/>
+          <select>
+            <option>Ulag görnüşi</option>
+            <option>Ak taksi</option>
+            <option>Sary taksi</option>
+          </select>
+          <select>
+            <option>Töleg görnüşi</option>
+            <option>Nagt töleg</option>
+            <option>Gapyda terminal</option>
+            <option>Onlaýn töleg</option>
+          </select>
+          <input type="time" placeholder="Ugramaly wagtyny saýla"/>
+          <button type="button" onclick="next()">Bronla</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+  
+
+
+
+<div class="footer">
+  <footer>
+    <div class="content">
+      <div class="left box">
+        <div class="upper">
+          <div class="topic">Biz barada</div>
+          <p>Aşgabatda taksi sargyt etmegiň täze hyzmaty bolan «Onlaýn taksi» ykjam goşundysy işe girizildi. Bu hyzmaty «Awtomobil ulag hyzmaty» açyk görnüşli paýdarlar jemgyýeti ýola goýdy.</p>
+        </div>
+        <div class="lower">
+          <div class="topic">Biz bilen habarlaşmak</div>
+          <div class="phone">
+            <a href="#"><i class="fas fa-phone-volume"></i>+99361234567</a>
+          </div>
+          <div class="email">
+            <a href="#"><i class="fas fa-envelope"></i>test@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="middle box">
+        <div class="topic">Biziň hyzmatlarymyz</div>
+        <div><a href="https://awtoulag.gov.tm/item/a/index?category_id=8">"Awtomobil ulag hyzmaty" AGPJ</a></div>
+        <div><a href="https://awtoulag.gov.tm/item/a/index?category_id=8">Aşgabatdaky ýolagçy awtoulag kärhanasy</a></div>
+        <div><a href="https://awtoulag.gov.tm/item/a/index?category_id=8">"Türkmenulaggözegçilik" döwlet kärhanasy</a></div>
+        <div><a href="https://awtoulag.gov.tm/item/a/index?category_id=8">Awtoulag serişdelerini abatlamak, ýerlemek we olara enjamlaýyn hyzmat etmek boýuna önümçilik birleşigi</a></div>
+        <div><a href="https://awtoulag.gov.tm/item/a/index?category_id=8">Aşgabatdaky awtoulag kärhanasy</a></div>
+        <div><a href="https://awtoulag.gov.tm/item/a/index?category_id=8">"Ulag eksppeditorçylyk hyzmatlary" H.J.</a></div>
+        <div><a href="https://awtoulag.gov.tm/item/a/index?category_id=8">"Awtomobil mekdepleriniň birleşigi</a></div>
+      </div>
+      <div class="right box">
+        <div class="topic">Bize goşulyň</div>
+        <form action="#">
+          <input type="text" placeholder="Elektron poçtaňyz...">
+          <input type="submit" name="" value="Ugrat">
+        </form>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>Copyright © 2020 <a href="https://etut.edu.tm/en/">Oguz han uniwersiteti</a> Ähli hukuklar goragly</p>
+    </div>
+  </footer>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="owl/owl.carousel.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
+function next(){
+  location.href="loading.html";
+}
+
+</script>
+</body>
+</html>
+
+

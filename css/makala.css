@@ -1,0 +1,348 @@
+.makala_title{
+    width: 100%;
+   
+    margin-top: 20px;
+   
+}
+#makala_ady{
+    font-weight:bold;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family:navBarFont;
+    font-size:22px;
+}
+.makala_title .makala_info{
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size:15px;
+    font-family: Verdana;
+}
+#makala_abstract{
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: justify;
+    font-size:15px;
+    
+    font-family:titleBarFont;
+}
+#skachat_file{
+    float: right;
+    margin-right: 17%;
+    padding:8px;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    background: linear-gradient(lime,green);
+    font-family:navBarFont;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.makala_awtor{
+    text-decoration: none;
+    color: darkblue;
+}
+.acar_soz{
+    text-decoration: none;
+    color: darkblue; 
+}
+
+.awtor_makala{
+    text-decoration: none;
+    color: darkblue; 
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 680px) {
+    .makala_title{
+        width: 100%;
+       
+        margin-top: 10px;
+       
+    }
+    #makala_ady{
+     
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+     
+        font-size:6px;
+    }
+    .makala_title .makala_info{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size:5px;
+       
+    }
+    #makala_abstract{
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        
+        font-size:5px;
+        
+        
+    }
+    #skachat_file{
+        
+        margin-right: 3%;
+        padding:3px;
+        border-radius: 10px;
+        font-size:5px;
+      
+    }
+    .makala_awtor{
+     
+    }
+    .acar_soz{
+      
+    }
+    
+    .awtor_makala{
+        
+    }
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 680px) {
+    .makala_title{
+        width: 100%;
+       
+        margin-top: 10px;
+       
+    }
+    #makala_ady{
+     
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+     
+        font-size:15px;
+    }
+    .makala_title .makala_info{
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size:10px;
+       
+    }
+    #makala_abstract{
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        
+        font-size:10px;
+        
+        
+    }
+    #skachat_file{
+        
+        margin-right: 7%;
+        padding:5px;
+        border-radius: 10px;
+        font-size:10px;
+      
+    }
+    .makala_awtor{
+     
+    }
+    .acar_soz{
+      
+    }
+    
+    .awtor_makala{
+        
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+
+    .makala_title{
+        width: 100%;
+       
+        margin-top: 15px;
+       
+    }
+    #makala_ady{
+     
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+     
+        font-size:20px;
+    }
+    .makala_title .makala_info{
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size:12px;
+       
+    }
+    #makala_abstract{
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        
+        font-size:12px;
+        
+        
+    }
+    #skachat_file{
+        
+        margin-right: 6%;
+        padding:5px;
+        border-radius: 10px;
+        font-size:12px;
+      
+    }
+    .makala_awtor{
+     
+    }
+    .acar_soz{
+      
+    }
+    
+    .awtor_makala{
+        
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1205px) {
+
+    .makala_title{
+        width: 100%;
+       
+        margin-top: 15px;
+       
+    }
+    #makala_ady{
+     
+        padding-left: 17%;
+        padding-right: 17%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+     
+        font-size:25px;
+    }
+    .makala_title .makala_info{
+        padding-left: 17%;
+        padding-right: 17%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size:15px;
+       
+    }
+    #makala_abstract{
+        padding-left: 17%;
+        padding-right: 17%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        
+        font-size:15px;
+        
+        
+    }
+    #skachat_file{
+        
+        margin-right: 17%;
+        padding:5px;
+        border-radius: 10px;
+        font-size:15px;
+      
+    }
+    .makala_awtor{
+     
+    }
+    .acar_soz{
+      
+    }
+    
+    .awtor_makala{
+        
+    }
+
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+
+    .makala_title{
+        width: 100%;
+       
+        margin-top: 20px;
+       
+    }
+    #makala_ady{
+     
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+     
+        font-size:22px;
+    }
+    .makala_title .makala_info{
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size:15px;
+       
+    }
+    #makala_abstract{
+        padding-left: 23%;
+        padding-right: 23%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        
+        font-size:15px;
+        
+        font-family:titleBarFont;
+    }
+    #skachat_file{
+        
+        margin-right: 23%;
+        padding:8px;
+        border-radius: 20px;
+      
+    }
+    .makala_awtor{
+     
+    }
+    .acar_soz{
+      
+    }
+    
+    .awtor_makala{
+        
+    }
+    
+
+}

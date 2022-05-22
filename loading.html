@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="icon" href="images/icons/ic.png" type="image/png" sizes="26x26">
+  <title>Loading</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+  <div style="height: 100vh">
+    <div class="flex-center flex-column">
+      <!-- <h1 class="animated fadeIn mb-2">Material Design for Bootstrap</h1>
+
+      <h5 class="animated fadeIn mb-1">Thank you for using our product. We're glad you're with us.</h5> -->
+      
+      <img src="images/write_article.jpg" class="img-fluid" alt="Responsive image">
+
+      <div class="text-center">
+        <div class="spinner-border text-success" role="status" id="progress">
+            <span class="sr-only">Biraz Garaşyň...</span>
+        </div>
+        </div>
+
+       
+      <p class="animated fadeIn text-muted" id="status">Biraz Garaşyň...</p>
+
+      <button type="button" class="btn btn-success btn-rounded" id="gir_btn" onclick="openprofile();" style="border-radius:50px;visibility:hidden;">Indiki ></button>
+
+     
+       
+    </div>
+  </div>
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script>
+      $(document).ready(function() { 
+              var status=0;
+              setInterval(function() {
+                  if(status==101){
+                      setInterval(function() {
+                         document.getElementById("gir_btn").style.visibility="visible";
+                         document.getElementById("progress").style.visibility="hidden";
+                         document.getElementById("status").innerHTML = "Üstünlükli hasaba alyndy!!!";
+                      },4000);
+                  } else{
+                    document.getElementById("status").innerHTML = "Biraz Garaşyň...  "+status+"%";
+                    status++;
+                  }
+                  
+              },100);
+       });
+
+       function openprofile(){
+        window.location.href="booked.html";
+        
+        
+       }
+  </script>
+</body>
+
+</html>
